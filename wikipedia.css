@@ -10,6 +10,34 @@ h1, h2 {
     color: white;
 }
 
+form {
+    text-align: center;
+    border-radius: 20px;
+}
+
+input {
+    width: 250px;
+    height: 40px;
+    border-radius: 20px;
+    border: 5px solid #996100;
+    background-color: #092B40;
+    padding-left: 20px;
+    outline: none;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.9em;
+}
+
+cursor {
+    color: white;
+    background-color: white;
+}
+
+.searchbox a {
+    text-decoration: none;
+    color: white;
+}
+
 
 .searchbox {
     width: 500px;
@@ -25,3 +53,4 @@ h1, h2 {
     font-size: 0.7rem;
     font-family: 'Raleway', sans-serif;
 }
+
