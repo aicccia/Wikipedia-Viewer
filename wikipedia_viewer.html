@@ -17,17 +17,25 @@
         </ul>
     </nav>
 
-        <div class="searchbox">
-            <div class="randomInstructions"><h1><a href="https://en.wikipedia.org/wiki/Special:Random">Click here for a random wikipedia article</a></h1></div>
-            <div class="searchBar">
-                <form>
-                    <input type="search" name="search" required autofocus/>
-
+        <div class="searchbox" id="run">
+            <div class="randomInstructions"><h1><a href="https://en.wikipedia.org/wiki/Special:Random">~ Click here for a random wikipedia article ~</a></h1></div>
+            <div class="slider">
+                <div class="searchInstructions slider"><h3>Select Number of Results</h3></div>
+                <form class="sliderForm">
+                    <input type="range" name="numberInput" id="numberInputID" min="1" max="30" step="1" value="15" oninput="numberOutputID.value = numberInputID.value">
+                    <output name = "numberOutput" id="numberOutputID">15</output>
                 </form>
-
             </div>
-            <div class="searchInstructions"><h2>Click icon to search</h2></div>
+            <div class="searchBar">
+                <form class="term" action="javascript:void(0);">
+                    <input type="search" name="search" required autofocus/>
+                </form>
+            </div>
+            <div class="searchInstructions"><h2>Enter to search</h2></div>
         </div>
+
+
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="wikipedia.js"></script>
     </body>

@@ -1,13 +1,23 @@
 body {
     background-color: #092B40;
-    height: 100vh;
-    display: flex;
-    margin: 0;
 }
 
-h1, h2 {
+h1, h2, h3 {
     margin: auto;
     color: white;
+}
+
+h1 {
+    font-size: 1.4em;
+}
+
+h2 {
+    font-size: 1.3em;
+}
+
+h3 {
+    font-size: 0.8em;
+
 }
 
 form {
@@ -33,6 +43,14 @@ cursor {
     background-color: white;
 }
 
+nav {
+    position: absolute;
+}
+
+.termBox:hover .highlight {
+    background-color: #996100;
+}
+
 .searchbox a {
     text-decoration: none;
     color: white;
@@ -41,16 +59,61 @@ cursor {
 
 .searchbox {
     width: 500px;
-    height: 300px;
-    margin: auto;
-
+    height: 244px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
 }
 
 .randomInstructions, .searchbar, .searchInstructions {
     display: flex;
     width: 500px;
-    height: 100px;
-    font-size: 0.7rem;
+    height: 60px;
     font-family: 'Raleway', sans-serif;
 }
+
+
+
+
+.contentBox {
+    width: 70%;
+    background-color: #E6E6E7;
+    border-left: 5px solid #092B40;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.contentBox:hover {
+    border-left: 5px solid orange;
+}
+
+.contentBox a  {
+    text-decoration: none;
+}
+
+.title {
+    padding: 10px 20px 5px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.5em;
+    font-weight: 600;
+    color: black;
+}
+
+.snippet {
+    color: black;
+    font-size: 1em;
+    padding: 10px 20px 10px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+output {
+    color: orange;
+    font-weight: 600;
+}
+
+
+
+
+
 
