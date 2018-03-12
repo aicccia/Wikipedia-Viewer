@@ -1,6 +1,6 @@
 body {
 	background-color: #092B40;
-	font-size: 2vw;
+	font-size: 16px;
 }
 
 h1, h2, h3 {
@@ -122,6 +122,17 @@ output {
 	padding: 10px 20px 10px;
 	font-family: "Times New Roman", Times, serif;
 }
+
+@media (max-width: 700px) {
+	.searchbox {
+		width: 80%;
+	}
+	.contentBox {
+		width: 90%;
+	}
+}
+
+
 
 
 
